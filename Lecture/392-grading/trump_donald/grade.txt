@@ -1,0 +1,36 @@
+Compiling gcd.cpp...done
+
+Running test 1...success
+Running test 2...success
+Running test 3...success
+Running test 4...success
+Running test 5...success
+Running test 6...success
+Running test 7...success
+Running test 8...success
+Running test 9...success
+Running test 10...success
+Running test 11...failure
+
+Expected________________________________________________________________________
+Iterative: gcd(48, -20) = 4
+Recursive: gcd(48, -20) = 4
+Received________________________________________________________________________
+Iterative: gcd(48, -20) = -4
+Recursive: gcd(48, -20) = -4
+
+Running test 12...failure
+
+Expected________________________________________________________________________
+Iterative: gcd(-8, 80) = 8
+Recursive: gcd(-8, 80) = 8
+Received________________________________________________________________________
+Iterative: gcd(-8, 80) = -8
+Recursive: gcd(-8, 80) = -8
+
+
+Total tests run: 12
+Number correct : 10
+Percent correct: 83.33
+
+Cleaning project...done

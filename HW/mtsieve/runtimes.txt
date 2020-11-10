@@ -1,0 +1,18 @@
+Brandon Cao
+I pledge my honor that I have abided by the Stevens Honor System.
+
+./mtsieve -s100 -e200000000 -t1 : real    0m3.364s
+
+./mtsieve -s100 -e200000000 -t2 : real    0m2.100s
+
+./mtsieve -s100 -e200000000 -t3 : real    0m1.884s
+
+./mtsieve -s100 -e200000000 -t4 : real    0m1.868s
+
+Intel(R) Core(TM) i5-7360U CPU @ 2.30GHz
+
+The time did not scale linearly with the number of threads used. 
+The time seemed to begin to pleateu as the niggest difference in time
+was between one thread and two threads. After that, increasing the
+amount of threads used increased the time by a small amount, and was
+got even smaller as more threads were used.
